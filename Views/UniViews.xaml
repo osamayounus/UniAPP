@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="UniAPP.Views.UniViews"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Frame BorderColor="Snow" CornerRadius="20">
+        <HorizontalStackLayout Margin="0" Spacing="7">
+            <Image HeightRequest="35" Source="school_7953808.png" />
+            <VerticalStackLayout Spacing="2">
+                <Label
+                    x:Name="UniName"
+                    FontSize="Subtitle"
+                    Text="UNI full name"
+                    TextColor="#2B0B98" />
+                <Label
+                    x:Name="UniWebsit"
+                    FontSize="Small"
+                    Text="www.uni.com"
+                    TextColor="LightBlue" />
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+    </Frame>
+</ContentView>
